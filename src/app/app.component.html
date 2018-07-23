@@ -7,5 +7,5 @@
 </div>
 
 <div>
-  <input type="text" name="title" (change)="changeTitle($event)" [value]="title" [disabled]="disabled">
+  <input type="text" name="title" [(ngModel)]="title" [disabled]="disabled">
 </div>
